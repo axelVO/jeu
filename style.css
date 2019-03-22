@@ -1,0 +1,45 @@
+body{
+    background: rgb(6,164,255);
+    background: -moz-linear-gradient(top, rgb(6,164,255) 0%, rgb(35,136,203) 100%, rgb(0,0,0) 100%);
+    background: -webkit-linear-gradient(top, rgb(6,164,255) 0%, rgb(35,136,203) 100%, rgb(0,0,0) 100%);
+    background: linear-gradient(to bottom, rgb(6,164,255) 0%, rgb(35,136,203) 100%, rgb(0,0,0) 100%);
+}
+html{
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    background: -webkit-linear-gradient(blue 0%, lightgrey 50%, #FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    background-color: lightgrey;
+    width: 253px;
+    height: 253px;
+    border: 2px solid green;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 40vw;
+    background : transparent;
+}
+.case {
+    background-color: rgba(20,20,20,0.2);
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    padding: 25px;
+    margin: 5px;
+    float: left;
+}
+.case:hover {
+    background-color: lightgrey;
+    width: 20px;
+    height: 20px;
+    border: 2px solid blue;
+    padding: 25px;
+    margin: 5px;
+    float: left;
+}
